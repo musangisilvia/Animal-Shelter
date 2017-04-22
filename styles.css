@@ -3,10 +3,14 @@ title {
   font-weight: bolder;
 }
 .important {
-  border: 4px solid purple;
   margin: 20px 0px 20px 0px;
   padding: 6px;
 }
 body {
   font-family: sans-serif;
+}
+
+.column1 {
+	width: 50%;
+	float: left;
 }
