@@ -2,6 +2,23 @@ title {
   color: Black;
   font-weight: bolder;
 }
+html {
+  margin: auto;
+  background: #8B4513;
+}
+
+#wrapper {
+  width: 100%auto;
+  height: 60px;
+  background-color: #FFFDD0;
+  border-left: 3px solid grey;
+  border-right: 3px solid grey;
+}
+#wrapper h1 {
+  float: left;
+  margin-left: 30px;
+  margin-right: 60px;
+}
 .important {
   margin: 20px 0px 20px 0px;
   padding: 6px;
@@ -13,4 +30,16 @@ body {
 .column1 {
 	width: 50%;
 	float: left;
+  border-left: : 3px solid blue;
+}
+.column1 p {
+  width: 50%;
+}
+.column2  {
+  width: 50%;
+	float: right;
+  border-right: : : 3px solid blue;
+}
+.column2 p {
+    width: 50%;
 }
